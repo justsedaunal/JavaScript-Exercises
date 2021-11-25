@@ -236,4 +236,64 @@ console.log(mySentence) // it shows My name is Seda and I'm well !
 
 /**Apending Variables to String */
 
+var anAdjective = "awesome";
+var ourString = "freeCodeCamps is "
+ourString += anAdjective
+
+console.log(ourString) // it shows freeCodeCamps is awesome
+//only change code below this line
+
+var someAdjective = "worthwhile" ;
+var  myString = "Learning to code is "
+myString += someAdjective
+
+console.log(myString) // it shows Learning to code is worthwhile
+
+
+/**Find Lenght of String */
+
+var firstNameLength = 0
+var firstName = "Seda"
+firstNameLength= firstName.length
+
+console.log(firstName.length) // it shows 4
+
+/**Bracket Notation to Find First Character in String */
+
+var lastNameLength = 0
+var lastName = "Ünal"
+lastNameLength = lastName [0]
+console.log(lastNameLength) // it shows Ü
+
+/**Most modern programming languages lik JavaScript don't start counting at 1like humans do
+ * They started 0 which is called "Zero-based indexing"
+ * So the number 0, that refers to first index of the string which would be the "Ü"
+ * So Ü is the 0, n is the 1, a is the 2, and l is the 3 
+ */
+
+
+/**String immutability 
+ 
+Strings are immutable meaning that cannot be altered once created . This does not mean that they cannot be changed,
+just that the individual characters of a string literal cannot be changed . So look at this example
+*/
+
+var myString = "Jello world"
+
+//myString [0] = H // it shows an error message instead od doing like that do like this :
+
+myString = "Hello world"
+console.log(myString) 
+
+/** Bracket Notation to Find Character in String  */
+
+var lastName = "Ünal"
+var thirdLetterofLastName = lastName [2]
+console.log(thirdLetterofLastName)
+
+
+/** Bracket Notation to Find Character in String the last letter  */
+
+var lastLetterOfLastName = lastName[lastName.length-1]
+console.log(lastLetterOfLastName) // it shows l
 
